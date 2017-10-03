@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA350F7B1F81E0BC00E249B8 /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA350F7A1F81E0BC00E249B8 /* ConfirmViewController.swift */; };
+		BA350F7D1F81E95900E249B8 /* DoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA350F7C1F81E95900E249B8 /* DoneViewController.swift */; };
+		BA350F7F1F81EEDA00E249B8 /* IDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA350F7E1F81EEDA00E249B8 /* IDViewController.swift */; };
+		BA350F811F81FAD000E249B8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA350F801F81FAD000E249B8 /* DetailViewController.swift */; };
+		BA350F831F82073A00E249B8 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA350F821F82073A00E249B8 /* ContactViewController.swift */; };
+		BAB66C611F802DC50004BF4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB66C601F802DC50004BF4D /* AppDelegate.swift */; };
+		BAB66C661F802DC50004BF4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB66C641F802DC50004BF4D /* Main.storyboard */; };
+		BAB66C681F802DC50004BF4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAB66C671F802DC50004BF4D /* Assets.xcassets */; };
+		BAB66C6B1F802DC50004BF4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB66C691F802DC50004BF4D /* LaunchScreen.storyboard */; };
+		BAB66C771F802ED40004BF4D /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB66C761F802ED40004BF4D /* TabBarViewController.swift */; };
+		BAB66C791F802FAB0004BF4D /* PayeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB66C781F802FAB0004BF4D /* PayeeViewController.swift */; };
+		BAB66C7C1F8033E40004BF4D /* PayeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB66C7A1F8033E40004BF4D /* PayeeCell.swift */; };
+		BAB66C7D1F8033E40004BF4D /* PayeeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAB66C7B1F8033E40004BF4D /* PayeeCell.xib */; };
+		BAB66C7F1F8036870004BF4D /* Payees.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB66C7E1F8036870004BF4D /* Payees.swift */; };
+		BAB66C831F8052630004BF4D /* AddPayeesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB66C821F8052630004BF4D /* AddPayeesViewController.swift */; };
+		BAB66C851F8056560004BF4D /* Payee.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB66C841F8056560004BF4D /* Payee.storyboard */; };
+		BAD021411F817E4E00B07106 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD021401F817E4E00B07106 /* Content.swift */; };
+		BAD021441F817F4F00B07106 /* ContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD021421F817F4F00B07106 /* ContentCell.swift */; };
+		BAD021451F817F4F00B07106 /* ContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAD021431F817F4F00B07106 /* ContentCell.xib */; };
+		BAD021471F81D9C700B07106 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD021461F81D9C700B07106 /* Card.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA350F7A1F81E0BC00E249B8 /* ConfirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmViewController.swift; sourceTree = "<group>"; };
+		BA350F7C1F81E95900E249B8 /* DoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneViewController.swift; sourceTree = "<group>"; };
+		BA350F7E1F81EEDA00E249B8 /* IDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDViewController.swift; sourceTree = "<group>"; };
+		BA350F801F81FAD000E249B8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		BA350F821F82073A00E249B8 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		BAB66C5D1F802DC50004BF4D /* PayeeDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayeeDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAB66C601F802DC50004BF4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAB66C651F802DC50004BF4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAB66C671F802DC50004BF4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAB66C6A1F802DC50004BF4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAB66C6C1F802DC50004BF4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAB66C761F802ED40004BF4D /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		BAB66C781F802FAB0004BF4D /* PayeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayeeViewController.swift; sourceTree = "<group>"; };
+		BAB66C7A1F8033E40004BF4D /* PayeeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayeeCell.swift; sourceTree = "<group>"; };
+		BAB66C7B1F8033E40004BF4D /* PayeeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PayeeCell.xib; sourceTree = "<group>"; };
+		BAB66C7E1F8036870004BF4D /* Payees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payees.swift; sourceTree = "<group>"; };
+		BAB66C821F8052630004BF4D /* AddPayeesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPayeesViewController.swift; sourceTree = "<group>"; };
+		BAB66C841F8056560004BF4D /* Payee.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Payee.storyboard; sourceTree = "<group>"; };
+		BAD021401F817E4E00B07106 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		BAD021421F817F4F00B07106 /* ContentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCell.swift; sourceTree = "<group>"; };
+		BAD021431F817F4F00B07106 /* ContentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentCell.xib; sourceTree = "<group>"; };
+		BAD021461F81D9C700B07106 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAB66C5A1F802DC50004BF4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAB66C541F802DC50004BF4D = {
+			isa = PBXGroup;
+			children = (
+				BAB66C5F1F802DC50004BF4D /* PayeeDB */,
+				BAB66C5E1F802DC50004BF4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAB66C5E1F802DC50004BF4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAB66C5D1F802DC50004BF4D /* PayeeDB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAB66C5F1F802DC50004BF4D /* PayeeDB */ = {
+			isa = PBXGroup;
+			children = (
+				BAB66C751F802E2F0004BF4D /* Models */,
+				BAB66C741F802E280004BF4D /* Views */,
+				BAB66C731F802E200004BF4D /* Controllers */,
+				BAB66C721F802E0B0004BF4D /* SupportFiles */,
+			);
+			path = PayeeDB;
+			sourceTree = "<group>";
+		};
+		BAB66C721F802E0B0004BF4D /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				BAB66C671F802DC50004BF4D /* Assets.xcassets */,
+				BAB66C691F802DC50004BF4D /* LaunchScreen.storyboard */,
+				BAB66C6C1F802DC50004BF4D /* Info.plist */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		BAB66C731F802E200004BF4D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BAB66C761F802ED40004BF4D /* TabBarViewController.swift */,
+				BAB66C781F802FAB0004BF4D /* PayeeViewController.swift */,
+				BAB66C821F8052630004BF4D /* AddPayeesViewController.swift */,
+				BA350F7A1F81E0BC00E249B8 /* ConfirmViewController.swift */,
+				BA350F7C1F81E95900E249B8 /* DoneViewController.swift */,
+				BA350F7E1F81EEDA00E249B8 /* IDViewController.swift */,
+				BA350F801F81FAD000E249B8 /* DetailViewController.swift */,
+				BA350F821F82073A00E249B8 /* ContactViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BAB66C741F802E280004BF4D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BAB66C641F802DC50004BF4D /* Main.storyboard */,
+				BAB66C841F8056560004BF4D /* Payee.storyboard */,
+				BAB66C7A1F8033E40004BF4D /* PayeeCell.swift */,
+				BAB66C7B1F8033E40004BF4D /* PayeeCell.xib */,
+				BAD021421F817F4F00B07106 /* ContentCell.swift */,
+				BAD021431F817F4F00B07106 /* ContentCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BAB66C751F802E2F0004BF4D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BAB66C601F802DC50004BF4D /* AppDelegate.swift */,
+				BAB66C7E1F8036870004BF4D /* Payees.swift */,
+				BAD021401F817E4E00B07106 /* Content.swift */,
+				BAD021461F81D9C700B07106 /* Card.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAB66C5C1F802DC50004BF4D /* PayeeDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAB66C6F1F802DC50004BF4D /* Build configuration list for PBXNativeTarget "PayeeDB" */;
+			buildPhases = (
+				BAB66C591F802DC50004BF4D /* Sources */,
+				BAB66C5A1F802DC50004BF4D /* Frameworks */,
+				BAB66C5B1F802DC50004BF4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayeeDB;
+			productName = PayeeDB;
+			productReference = BAB66C5D1F802DC50004BF4D /* PayeeDB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAB66C551F802DC50004BF4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Lynne;
+				TargetAttributes = {
+					BAB66C5C1F802DC50004BF4D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BAB66C581F802DC50004BF4D /* Build configuration list for PBXProject "PayeeDB" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAB66C541F802DC50004BF4D;
+			productRefGroup = BAB66C5E1F802DC50004BF4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAB66C5C1F802DC50004BF4D /* PayeeDB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAB66C5B1F802DC50004BF4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAB66C6B1F802DC50004BF4D /* LaunchScreen.storyboard in Resources */,
+				BAB66C681F802DC50004BF4D /* Assets.xcassets in Resources */,
+				BAB66C7D1F8033E40004BF4D /* PayeeCell.xib in Resources */,
+				BAB66C851F8056560004BF4D /* Payee.storyboard in Resources */,
+				BAB66C661F802DC50004BF4D /* Main.storyboard in Resources */,
+				BAD021451F817F4F00B07106 /* ContentCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAB66C591F802DC50004BF4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA350F811F81FAD000E249B8 /* DetailViewController.swift in Sources */,
+				BA350F831F82073A00E249B8 /* ContactViewController.swift in Sources */,
+				BAB66C771F802ED40004BF4D /* TabBarViewController.swift in Sources */,
+				BAD021471F81D9C700B07106 /* Card.swift in Sources */,
+				BAB66C7F1F8036870004BF4D /* Payees.swift in Sources */,
+				BA350F7D1F81E95900E249B8 /* DoneViewController.swift in Sources */,
+				BAD021411F817E4E00B07106 /* Content.swift in Sources */,
+				BA350F7F1F81EEDA00E249B8 /* IDViewController.swift in Sources */,
+				BAB66C791F802FAB0004BF4D /* PayeeViewController.swift in Sources */,
+				BA350F7B1F81E0BC00E249B8 /* ConfirmViewController.swift in Sources */,
+				BAB66C7C1F8033E40004BF4D /* PayeeCell.swift in Sources */,
+				BAB66C611F802DC50004BF4D /* AppDelegate.swift in Sources */,
+				BAB66C831F8052630004BF4D /* AddPayeesViewController.swift in Sources */,
+				BAD021441F817F4F00B07106 /* ContentCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BAB66C641F802DC50004BF4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAB66C651F802DC50004BF4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAB66C691F802DC50004BF4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAB66C6A1F802DC50004BF4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAB66C6D1F802DC50004BF4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAB66C6E1F802DC50004BF4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAB66C701F802DC50004BF4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5P3B5P74MT;
+				INFOPLIST_FILE = "$(SRCROOT)/PayeeDB/SupportFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lynne.PayeeDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAB66C711F802DC50004BF4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5P3B5P74MT;
+				INFOPLIST_FILE = "$(SRCROOT)/PayeeDB/SupportFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lynne.PayeeDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAB66C581F802DC50004BF4D /* Build configuration list for PBXProject "PayeeDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAB66C6D1F802DC50004BF4D /* Debug */,
+				BAB66C6E1F802DC50004BF4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAB66C6F1F802DC50004BF4D /* Build configuration list for PBXNativeTarget "PayeeDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAB66C701F802DC50004BF4D /* Debug */,
+				BAB66C711F802DC50004BF4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAB66C551F802DC50004BF4D /* Project object */;
+}
