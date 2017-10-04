@@ -27,29 +27,26 @@ class DetailViewController: UIViewController {
         super.viewDidLoad()
         labelText()
         buttonUISetup()
-        
     }
     
-    func labelText() {
-        companyLabel.text = Card.items[0].relatedInfo
-        nameLabel.text = Card.items[0].name
-        addressLabel.text = Card.items[0].address + " " + Card.items[0].zip
-        phoneLabel.text = Card.items[0].phone
-        paymentLabel.text = Card.items[0].payment
-        taxLabel.text = Card.items[0].taxID
-        foundLabel.text = Card.items[0].name
-        foundAddressLabel.text = Card.items[0].address
-        foundPhoneLabel.text = Card.items[0].phone
+    private func labelText() {
+        companyLabel.text = StorageManager.items[0].companyName
+        nameLabel.text = StorageManager.items[0].contactName
+        addressLabel.text = StorageManager.items[0].address + " " + StorageManager.items[0].zip
+        phoneLabel.text = StorageManager.items[0].phone
+        paymentLabel.text = StorageManager.items[0].payment
+        taxLabel.text = StorageManager.items[0].taxID
+        foundLabel.text = StorageManager.items[0].companyName
+        foundAddressLabel.text = StorageManager.items[0].address
+        foundPhoneLabel.text = StorageManager.items[0].phone
     }
     
-    func buttonUISetup() {
+    private func buttonUISetup() {
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Confirm", style: .plain, target: self, action: #selector (toConfirm))
         firstChooseButton.layer.borderWidth = 0.3
         firstChooseButton.layer.borderColor = UIColor.black.cgColor
         secondChooseButton.layer.borderWidth = 0.3
         secondChooseButton.layer.borderColor = UIColor.black.cgColor
-        //firstImage.image =
-        //secondImage.image =
     }
     
     @IBAction func chooseFirst(_ sender: UIButton) {
@@ -69,10 +66,4 @@ class DetailViewController: UIViewController {
         let toContact = story.instantiateViewController(withIdentifier: "CVC")
         navigationController?.pushViewController(toContact, animated: true)
     }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 }

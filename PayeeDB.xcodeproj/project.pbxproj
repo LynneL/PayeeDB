@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE59BB8A1F8405CA00180519 /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE59BB891F8405CA00180519 /* PaymentView.swift */; };
+		AE59BB8C1F8405D400180519 /* PaymentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE59BB8B1F8405D400180519 /* PaymentView.xib */; };
+		AE59BB8E1F84122900180519 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE59BB8D1F84122900180519 /* Utility.swift */; };
+		AE59BBA91F84145900180519 /* FontInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = AE59BBA21F84144D00180519 /* FontInspector.m */; };
+		AE59BBAA1F84145C00180519 /* ionicons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AE59BBA41F84144D00180519 /* ionicons.bundle */; };
+		AE59BBAB1F84145E00180519 /* IonIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = AE59BBA61F84144D00180519 /* IonIcons.m */; };
+		AE59BBAC1F84146100180519 /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE59BBA71F84144D00180519 /* ionicons.ttf */; };
+		AE8259331F845A7D00B9F5FF /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8259321F845A7D00B9F5FF /* ErrorView.swift */; };
+		BA29D4D11F8488F700DCB5AA /* ErrorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE8259311F845A7C00B9F5FF /* ErrorView.xib */; };
 		BA350F7B1F81E0BC00E249B8 /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA350F7A1F81E0BC00E249B8 /* ConfirmViewController.swift */; };
 		BA350F7D1F81E95900E249B8 /* DoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA350F7C1F81E95900E249B8 /* DoneViewController.swift */; };
 		BA350F7F1F81EEDA00E249B8 /* IDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA350F7E1F81EEDA00E249B8 /* IDViewController.swift */; };
@@ -23,13 +32,25 @@
 		BAB66C7F1F8036870004BF4D /* Payees.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB66C7E1F8036870004BF4D /* Payees.swift */; };
 		BAB66C831F8052630004BF4D /* AddPayeesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB66C821F8052630004BF4D /* AddPayeesViewController.swift */; };
 		BAB66C851F8056560004BF4D /* Payee.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB66C841F8056560004BF4D /* Payee.storyboard */; };
-		BAD021411F817E4E00B07106 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD021401F817E4E00B07106 /* Content.swift */; };
 		BAD021441F817F4F00B07106 /* ContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD021421F817F4F00B07106 /* ContentCell.swift */; };
 		BAD021451F817F4F00B07106 /* ContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAD021431F817F4F00B07106 /* ContentCell.xib */; };
-		BAD021471F81D9C700B07106 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD021461F81D9C700B07106 /* Card.swift */; };
+		BAD021471F81D9C700B07106 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD021461F81D9C700B07106 /* StorageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE59BB891F8405CA00180519 /* PaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentView.swift; sourceTree = "<group>"; };
+		AE59BB8B1F8405D400180519 /* PaymentView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentView.xib; sourceTree = "<group>"; };
+		AE59BB8D1F84122900180519 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		AE59BB9C1F84143F00180519 /* PayeeDB-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PayeeDB-Bridging-Header.h"; sourceTree = "<group>"; };
+		AE59BBA11F84144D00180519 /* FontInspector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontInspector.h; sourceTree = "<group>"; };
+		AE59BBA21F84144D00180519 /* FontInspector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontInspector.m; sourceTree = "<group>"; };
+		AE59BBA31F84144D00180519 /* ionicons-codes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ionicons-codes.h"; sourceTree = "<group>"; };
+		AE59BBA41F84144D00180519 /* ionicons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ionicons.bundle; sourceTree = "<group>"; };
+		AE59BBA51F84144D00180519 /* IonIcons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IonIcons.h; sourceTree = "<group>"; };
+		AE59BBA61F84144D00180519 /* IonIcons.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IonIcons.m; sourceTree = "<group>"; };
+		AE59BBA71F84144D00180519 /* ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.ttf; sourceTree = "<group>"; };
+		AE8259311F845A7C00B9F5FF /* ErrorView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ErrorView.xib; sourceTree = "<group>"; };
+		AE8259321F845A7D00B9F5FF /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		BA350F7A1F81E0BC00E249B8 /* ConfirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmViewController.swift; sourceTree = "<group>"; };
 		BA350F7C1F81E95900E249B8 /* DoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneViewController.swift; sourceTree = "<group>"; };
 		BA350F7E1F81EEDA00E249B8 /* IDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDViewController.swift; sourceTree = "<group>"; };
@@ -48,10 +69,9 @@
 		BAB66C7E1F8036870004BF4D /* Payees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payees.swift; sourceTree = "<group>"; };
 		BAB66C821F8052630004BF4D /* AddPayeesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPayeesViewController.swift; sourceTree = "<group>"; };
 		BAB66C841F8056560004BF4D /* Payee.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Payee.storyboard; sourceTree = "<group>"; };
-		BAD021401F817E4E00B07106 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		BAD021421F817F4F00B07106 /* ContentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCell.swift; sourceTree = "<group>"; };
 		BAD021431F817F4F00B07106 /* ContentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentCell.xib; sourceTree = "<group>"; };
-		BAD021461F81D9C700B07106 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		BAD021461F81D9C700B07106 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +85,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE59BBA01F84144D00180519 /* ionicons */ = {
+			isa = PBXGroup;
+			children = (
+				AE59BBA11F84144D00180519 /* FontInspector.h */,
+				AE59BBA21F84144D00180519 /* FontInspector.m */,
+				AE59BBA31F84144D00180519 /* ionicons-codes.h */,
+				AE59BBA41F84144D00180519 /* ionicons.bundle */,
+				AE59BBA51F84144D00180519 /* IonIcons.h */,
+				AE59BBA61F84144D00180519 /* IonIcons.m */,
+				AE59BBA71F84144D00180519 /* ionicons.ttf */,
+			);
+			path = ionicons;
+			sourceTree = "<group>";
+		};
 		BAB66C541F802DC50004BF4D = {
 			isa = PBXGroup;
 			children = (
@@ -95,9 +129,11 @@
 		BAB66C721F802E0B0004BF4D /* SupportFiles */ = {
 			isa = PBXGroup;
 			children = (
+				AE59BBA01F84144D00180519 /* ionicons */,
 				BAB66C671F802DC50004BF4D /* Assets.xcassets */,
 				BAB66C691F802DC50004BF4D /* LaunchScreen.storyboard */,
 				BAB66C6C1F802DC50004BF4D /* Info.plist */,
+				AE59BB9C1F84143F00180519 /* PayeeDB-Bridging-Header.h */,
 			);
 			path = SupportFiles;
 			sourceTree = "<group>";
@@ -105,6 +141,7 @@
 		BAB66C731F802E200004BF4D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				BAB66C601F802DC50004BF4D /* AppDelegate.swift */,
 				BAB66C761F802ED40004BF4D /* TabBarViewController.swift */,
 				BAB66C781F802FAB0004BF4D /* PayeeViewController.swift */,
 				BAB66C821F8052630004BF4D /* AddPayeesViewController.swift */,
@@ -121,11 +158,15 @@
 			isa = PBXGroup;
 			children = (
 				BAB66C641F802DC50004BF4D /* Main.storyboard */,
+				AE8259321F845A7D00B9F5FF /* ErrorView.swift */,
+				AE8259311F845A7C00B9F5FF /* ErrorView.xib */,
 				BAB66C841F8056560004BF4D /* Payee.storyboard */,
 				BAB66C7A1F8033E40004BF4D /* PayeeCell.swift */,
 				BAB66C7B1F8033E40004BF4D /* PayeeCell.xib */,
 				BAD021421F817F4F00B07106 /* ContentCell.swift */,
 				BAD021431F817F4F00B07106 /* ContentCell.xib */,
+				AE59BB891F8405CA00180519 /* PaymentView.swift */,
+				AE59BB8B1F8405D400180519 /* PaymentView.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -133,10 +174,9 @@
 		BAB66C751F802E2F0004BF4D /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				BAB66C601F802DC50004BF4D /* AppDelegate.swift */,
 				BAB66C7E1F8036870004BF4D /* Payees.swift */,
-				BAD021401F817E4E00B07106 /* Content.swift */,
-				BAD021461F81D9C700B07106 /* Card.swift */,
+				BAD021461F81D9C700B07106 /* StorageManager.swift */,
+				AE59BB8D1F84122900180519 /* Utility.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -173,6 +213,7 @@
 				TargetAttributes = {
 					BAB66C5C1F802DC50004BF4D = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -201,11 +242,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAB66C6B1F802DC50004BF4D /* LaunchScreen.storyboard in Resources */,
+				AE59BBAA1F84145C00180519 /* ionicons.bundle in Resources */,
 				BAB66C681F802DC50004BF4D /* Assets.xcassets in Resources */,
 				BAB66C7D1F8033E40004BF4D /* PayeeCell.xib in Resources */,
 				BAB66C851F8056560004BF4D /* Payee.storyboard in Resources */,
 				BAB66C661F802DC50004BF4D /* Main.storyboard in Resources */,
+				AE59BBAC1F84146100180519 /* ionicons.ttf in Resources */,
+				AE59BB8C1F8405D400180519 /* PaymentView.xib in Resources */,
 				BAD021451F817F4F00B07106 /* ContentCell.xib in Resources */,
+				BA29D4D11F8488F700DCB5AA /* ErrorView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,14 +264,18 @@
 				BA350F811F81FAD000E249B8 /* DetailViewController.swift in Sources */,
 				BA350F831F82073A00E249B8 /* ContactViewController.swift in Sources */,
 				BAB66C771F802ED40004BF4D /* TabBarViewController.swift in Sources */,
-				BAD021471F81D9C700B07106 /* Card.swift in Sources */,
+				BAD021471F81D9C700B07106 /* StorageManager.swift in Sources */,
 				BAB66C7F1F8036870004BF4D /* Payees.swift in Sources */,
+				AE59BB8A1F8405CA00180519 /* PaymentView.swift in Sources */,
 				BA350F7D1F81E95900E249B8 /* DoneViewController.swift in Sources */,
-				BAD021411F817E4E00B07106 /* Content.swift in Sources */,
+				AE8259331F845A7D00B9F5FF /* ErrorView.swift in Sources */,
+				AE59BBA91F84145900180519 /* FontInspector.m in Sources */,
 				BA350F7F1F81EEDA00E249B8 /* IDViewController.swift in Sources */,
 				BAB66C791F802FAB0004BF4D /* PayeeViewController.swift in Sources */,
+				AE59BBAB1F84145E00180519 /* IonIcons.m in Sources */,
 				BA350F7B1F81E0BC00E249B8 /* ConfirmViewController.swift in Sources */,
 				BAB66C7C1F8033E40004BF4D /* PayeeCell.swift in Sources */,
+				AE59BB8E1F84122900180519 /* Utility.swift in Sources */,
 				BAB66C611F802DC50004BF4D /* AppDelegate.swift in Sources */,
 				BAB66C831F8052630004BF4D /* AddPayeesViewController.swift in Sources */,
 				BAD021441F817F4F00B07106 /* ContentCell.swift in Sources */,
@@ -366,16 +415,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5P3B5P74MT;
+				DEVELOPMENT_TEAM = 8MEW5QBNL4;
 				INFOPLIST_FILE = "$(SRCROOT)/PayeeDB/SupportFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Lynne.PayeeDB;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wf.PayeeDB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PayeeDB/SupportFiles/PayeeDB-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -383,16 +435,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5P3B5P74MT;
+				DEVELOPMENT_TEAM = 8MEW5QBNL4;
 				INFOPLIST_FILE = "$(SRCROOT)/PayeeDB/SupportFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Lynne.PayeeDB;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wf.PayeeDB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PayeeDB/SupportFiles/PayeeDB-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -26,31 +26,31 @@ class ContactViewController: UIViewController {
         buttonUISetup()
     }
 
-    func labelText() {
-        companyLabel.text = Card.items[0].relatedInfo
-        nameLabel.text = Card.items[0].name
-        addressLabel.text = Card.items[0].address + " " + Card.items[0].zip
-        phoneLabel.text = Card.items[0].phone
-        paymentLabel.text = Card.items[0].payment
-        taxLabel.text = Card.items[0].taxID
+    private func labelText() {
+        companyLabel.text = StorageManager.items[0].companyName
+        nameLabel.text = StorageManager.items[0].contactName
+        addressLabel.text = StorageManager.items[0].address + " " + StorageManager.items[0].zip
+        phoneLabel.text = StorageManager.items[0].phone
+        paymentLabel.text = StorageManager.items[0].payment
+        taxLabel.text = StorageManager.items[0].taxID
     }
     
-    func buttonUISetup() {
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Confirm", style: .plain, target: self, action: #selector (toAdd))
-        contactButton.backgroundColor = UIColor(displayP3Red: 13/255.0, green: 101/255.0, blue: 155/255.0, alpha: 1)
+    private func buttonUISetup() {
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Confirm",
+                                                            style: .plain,
+                                                            target: self,
+                                                            action: #selector (toAdd))
+        contactButton.backgroundColor = UIColor(displayP3Red: 13/255.0,
+                                                green: 101/255.0,
+                                                blue: 155/255.0,
+                                                alpha: 1)
         contactButton.layer.cornerRadius = 5
     }
     
-    @objc func toAdd() {
+    @objc private func toAdd() {
         navigationItem.rightBarButtonItem?.title = "Add"
         serviceLabel.isHidden = false
         messageLabel.isHidden = false
         contactButton.isHidden = false
     }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 }

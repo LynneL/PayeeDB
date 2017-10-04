@@ -9,6 +9,7 @@
 import UIKit
 
 class DoneViewController: UIViewController {
+    
     @IBOutlet weak var confirmLabel: UILabel!
     @IBOutlet weak var confirmImage: UIImageView!
     @IBOutlet weak var doneButton: UIButton!
@@ -21,13 +22,6 @@ class DoneViewController: UIViewController {
     }
 
     @IBAction func done(_ sender: UIButton) {
-        
+        navigationController?.popToRootViewController(animated: true)
     }
-    
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 }

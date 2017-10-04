@@ -21,26 +21,17 @@ class ConfirmViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         addPayUISetup()
-        companyLabel.text = Card.items[0].relatedInfo
-        nameLabel.text = Card.items[0].name
-        addressLabel.text = Card.items[0].address + " " + Card.items[0].zip
-        phoneLabel.text = Card.items[0].phone
-        paymentLabel.text = Card.items[0].payment
-        //Card.remove(Item: Card.items[0])
-        
-
+        companyLabel.text = StorageManager.items[0].companyName
+        nameLabel.text = StorageManager.items[0].contactName
+        addressLabel.text = StorageManager.items[0].address + " " + StorageManager.items[0].zip
+        phoneLabel.text = StorageManager.items[0].phone
+        paymentLabel.text = StorageManager.items[0].payment
     }
 
-    func addPayUISetup() {
+    private func addPayUISetup() {
         foundView.layer.cornerRadius = foundView.frame.size.width / 2
         historyView.layer.cornerRadius = historyView.frame.size.width / 2
         trustView.layer.cornerRadius = trustView.frame.size.width / 2
     }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-  
 
 }

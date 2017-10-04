@@ -59,6 +59,7 @@
                     <constraint firstItem="gVF-Fg-Lfh" firstAttribute="leading" secondItem="Oum-8Z-s8i" secondAttribute="leading" id="Wuu-XP-9qT"/>
                     <constraint firstItem="Oum-8Z-s8i" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="hy1-IS-MOr"/>
                     <constraint firstAttribute="trailing" secondItem="Oum-8Z-s8i" secondAttribute="trailing" constant="20" id="sGo-uC-Hmg"/>
+                    <constraint firstAttribute="bottom" secondItem="gVF-Fg-Lfh" secondAttribute="bottom" constant="13" id="vPk-EW-SLq"/>
                     <constraint firstItem="Oum-8Z-s8i" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="13.5" id="yVw-rn-JGL"/>
                 </constraints>
             </tableViewCellContentView>
